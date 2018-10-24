@@ -3,8 +3,11 @@ title: Escape Sequences in Strings
 ---
 ## Escape Sequences in Strings
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/escape-sequences-in-strings/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Looking at the required string, we can see that we need "FirstLine", followed by a newline, then a tab, backslash and "SecondLine", followed by a newline and "Thirdline".
+
+Since we can't have any spaces, and newline="\n", tab="\t", and backslash="\\", so the full string is:
+
+```javascript
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+```
